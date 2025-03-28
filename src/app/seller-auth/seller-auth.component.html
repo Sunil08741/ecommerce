@@ -1,0 +1,46 @@
+<div class="seller-auth">
+    <div *ngIf="!showLogin" class="sign-up">
+        <h1>Seller Sign-Up</h1>
+        <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)"class="comman-form">
+            <input class="comman-input" ngModel name="name" type="text" placeholder=" Enter Name">
+            <input class="comman-input" ngModel name="email" type="text" placeholder="Enter Email">
+            <input class="comman-input" ngModel name="password" type="password" placeholder="Enter Password">
+            <button class="comman-button">Sign-Up</button>
+            <a class="auth-toggle-link" (click)="openLogin()">Already Have Account? Click to Login</a>
+        </form>
+    </div>
+
+    <!-- Login Form -->
+
+    <div *ngIf="showLogin" class="login">
+        <h1>Seller Login</h1>
+        <p class="error-p">{{authError}}</p>
+        <form #sellerLogin="ngForm" (ngSubmit)="Login(sellerLogin.value)"class="comman-form">
+            <input 
+             class="comman-input" 
+             ngModel
+             name="email" 
+             type="text" 
+             placeholder="Enter Email"
+             #email="ngModel"
+             required
+             email
+            >
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please Enter Valid Email</span></p>
+            <input
+              class="comman-input" 
+              ngModel 
+              name="password" 
+              type="password" 
+              placeholder="Enter Password"
+              #password="ngModel"
+              required
+              minlength="5"
+              maxlength="20"
+            >
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please Enter Password</span></p>
+            <button class="comman-button">Login</button>
+            <a class="auth-toggle-link" (click)="openSignUp()">Don't Have Account? Click to Sign-Up</a>
+        </form>
+    </div>
+</div>

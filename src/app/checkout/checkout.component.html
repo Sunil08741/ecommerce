@@ -1,0 +1,51 @@
+<div class="checkout">
+    <h1>Checkout</h1>
+    <p class="message-p">{{orderMessage}}</p>
+    <div class="row">
+        <div class="col-sm-7">
+            <h3>Add Shipping Address</h3>
+            <form #orderdData="ngForm" class="comman-form" (ngSubmit)="orderNow(orderdData.value)">
+                <input
+                  type="text" 
+                  placeholder="Enter User Email"
+                  name="email" 
+                  class="comman-input"
+                  ngModel
+                  #email="ngModel"
+                  required
+                  email
+                >
+                <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please Enter Valid Email</span></p>
+                <input
+                  type="text" 
+                  placeholder="Enter your Address"
+                  name="address" 
+                  class="comman-input"
+                  ngModel
+                  #address="ngModel"
+                  required
+                  address
+                >
+                <p class="invalid-input"><span *ngIf="address.invalid && address.touched">Please Enter Valid Address</span></p>
+                <input
+                  type="text" 
+                  placeholder="Enter your details"
+                  name="contact" 
+                  class="comman-input"
+                  ngModel
+                  #contact="ngModel"
+                  required
+                  contact
+                >
+                <p class="invalid-input"><span *ngIf="contact.invalid && contact.touched">Please Enter Valid Contact</span></p>
+                <button class="comman-button">Order Now</button>
+            </form>
+        </div>
+        <div class="col-sm-5">
+         <h3>Total Amount : {{totalPrice}}</h3>
+         <h4>Payment Mathod : <b>Chash on Delivery</b></h4>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

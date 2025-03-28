@@ -1,0 +1,185 @@
+{
+  "seller": [
+    {
+      "id": "b596",
+      "name": "sunil",
+      "email": "sunil123@gmail.com",
+      "password": "sunil123"
+    },
+    {
+      "id": "d75e",
+      "name": "Anil",
+      "email": "Anil123@gmail.com",
+      "password": "Anil123"
+    },
+    {
+      "id": "f944",
+      "name": "hitesh",
+      "email": "hitesh@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "888e",
+      "name": "hitesh",
+      "email": "hitesh123@gmail.com",
+      "password": "123"
+    }
+  ],
+  "products": [
+    {
+      "name": "iphon 14",
+      "price": "60000",
+      "color": "black",
+      "category": "mobile",
+      "description": "apple product",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg",
+      "id": "cae5"
+    },
+    {
+      "name": "hp Laptop",
+      "price": "56000",
+      "color": "silver",
+      "category": "laptop",
+      "description": "hp product for students and bussiness",
+      "image": "https://media.istockphoto.com/id/2152881346/photo/laptop-hp-15-bs157ur-3xy58ea-on-white-background.jpg?s=612x612&w=0&k=20&c=km0VP7D0-TjV2ZFvZb4mn3Nloaz3KVSYYM4hN_QoJHs=",
+      "id": "8d0a"
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "6000",
+      "color": "black",
+      "category": "shoes",
+      "description": "Confirtable Shoes for Running",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmyg6414FVEMukv-3w5zU-YbC7sfHGTHEDx7n51SXS25bTPQcARP31aQ&s",
+      "id": "1cdb"
+    },
+    {
+      "name": "Levi's Jeans",
+      "price": "4000",
+      "color": "black",
+      "category": "jeans",
+      "description": "confirtable jeans for man's",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQxMdGcOduxYkv52ievfhx6IebjKdYORWVXc8ZAJaOxyhmbDv7jvoLVkRCz04z57U-b47Xxd4CKA_F2xNvc0ruE0fHNwsFPWpBP1tpMCi-iA8cogBoX6uE9wg",
+      "id": "3084"
+    },
+    {
+      "id": "12a4",
+      "name": "Samsung S24",
+      "price": "100000",
+      "color": "white",
+      "category": "mobile",
+      "description": "Samsung product",
+      "image": "https://m.media-amazon.com/images/I/61+g6KrDXdL._SX679_.jpg"
+    },
+    {
+      "name": "Smart Watch",
+      "price": "2500",
+      "color": "Black",
+      "category": "Watch",
+      "description": "Fire Boltt Watch",
+      "image": "https://images.snapmint.com/product_assets/images/000/890/756/large/data?1706616699",
+      "id": "243c"
+    },
+    {
+      "name": "Trimmer",
+      "price": "4000",
+      "color": "Golden",
+      "category": "Trimmer",
+      "description": "Sonashi Product",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcREuSqyx2Myto54wFUKxd0b4hgXMmVH25eKgwGEpiKIo2udaZaJIyVF5Qgyq_GgJeUSYuWV6DRiYswnp_G1LoPJMqOGcliejQgzsSxtqCGisx8n56cIXVeoTpSaUhYmVO_VRg&usqp=CAc",
+      "id": "1d73"
+    },
+    {
+      "id": "e01f",
+      "name": "T-Shirt",
+      "price": "1200",
+      "color": "white",
+      "category": "T-Shirt",
+      "description": "Confirtable for Man's",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQesBHnFrFEbpBurza2tAvajUkB_bbjmA7WhA1Xhl4kyGBjaPB5BvCdHIdQqTEZWNBktMZwbcFl6qFcCfF9OKeSQv9wnqsH9EEmE6UWtqxd&usqp=CAE"
+    },
+    {
+      "id": "4fe7",
+      "name": "iphon 14",
+      "price": "100000",
+      "color": "silver",
+      "category": "mobile",
+      "description": "this is smart phone",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQesBHnFrFEbpBurza2tAvajUkB_bbjmA7WhA1Xhl4kyGBjaPB5BvCdHIdQqTEZWNBktMZwbcFl6qFcCfF9OKeSQv9wnqsH9EEmE6UWtqxd&usqp=CAE"
+    }
+  ],
+  "users": [
+    {
+      "id": "1144",
+      "name": "sunil",
+      "email": "sunil123@gmail.com",
+      "password": "sunil123"
+    },
+    {
+      "id": "18f5",
+      "name": "anil",
+      "email": "anil123@gmail.com",
+      "password": "anil123"
+    },
+    {
+      "id": "54fc",
+      "name": "rahul",
+      "email": "rahul123@gmail.com",
+      "password": "rahul123"
+    },
+    {
+      "id": "a6dd",
+      "name": "shiv",
+      "email": "shiv123@gmail.com",
+      "password": "shiv123"
+    },
+    {
+      "id": "a0b4",
+      "name": "subhu",
+      "email": "subhu123@gmai.com",
+      "password": "subhu123"
+    },
+    {
+      "id": "d6c5",
+      "name": "hitesh",
+      "email": "hitesh123@gmail.com",
+      "password": "hitesh123"
+    },
+    {
+      "id": "99d7",
+      "name": "hitesh",
+      "email": "hitesh@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "98e5",
+      "name": "hitesh",
+      "email": "hitesh123@gmail.com",
+      "password": "123"
+    }
+  ],
+  "cart": [
+    {
+      "id": "56dc",
+      "name": "iphon 14",
+      "price": "60000",
+      "color": "black",
+      "category": "mobile",
+      "description": "apple product",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg",
+      "quantity": 1,
+      "userId": "d6c5",
+      "productId": "cae5"
+    }
+  ],
+  "orders": [
+    {
+      "id": "5bd0",
+      "email": "sunil123@gmail.com",
+      "address": "Jaipur",
+      "contact": "3442q",
+      "totalPrice": 60100,
+      "userId": "d6c5"
+    }
+  ]
+}
