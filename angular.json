@@ -28,7 +28,11 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": {
+              "start": "node server.js",
+              "build": "ng build --configuration production",
+              "postinstall": "npm run build"
+            }
           },
           "configurations": {
             "production": {
@@ -44,7 +48,13 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "optimization": true,
+              "sourceMap": false,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
             },
             "development": {
               "buildOptimizer": false,
@@ -90,7 +100,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": {
+              "start": "node server.js",
+              "build": "ng build --configuration production",
+              "postinstall": "npm run build"
+            }
           }
         }
       }
